@@ -1,0 +1,26 @@
+table, th, td{
+border: 1px solid black;
+text-align: center;
+}
+
+.table{
+    width: 100%;
+}
+
+th, td{
+    height: 40px;
+}
+
+th{
+    background-color:darkblue;
+    color: white;
+}
+
+
+tr:nth-child(2n){
+background-color: lightskyblue;
+}
+
+.head{
+border: 1px solid black;
+}
